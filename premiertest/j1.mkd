@@ -1,0 +1,7 @@
+#premier jour au laboratoire
+
+- Lecture de l'article _**Recognizing ADLs of One Person Household based on non-intrusive environmental sensing**_
+
+- Création de mon cahier de laboratoire sur github
+
+- Debut du [Mooc Fun](https://www.fun-mooc.fr/courses/course-v1:inria+41016+session01bis/courseware/4ab137e597734d239618e813ff3287c9/61853c0df111436d9104f93fcc131739/)
