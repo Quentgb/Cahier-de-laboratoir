@@ -24,8 +24,11 @@
 * Challenge 
 
             La plupart des recherches menées sur ADLs s'appliquent principalement sur les personnes agées, les personnes atteintes de cancer oules familles ordinnaires, mais tres peu pour les personnes vivants seules.
+            
             La seule caractéristique : la personne vie seule
+            
             De plus le systeme ne devra pas etre considéré comme intrusif, Le résident doit etre mis a l'aise en présence du systeme .
+            
             Le but de cette recheche est de minimiser ces limitations d'approche conventionnelle tout en ayant une bonne qualité d'ADL reconnaissance d'une personne vivant seule.
 
 
