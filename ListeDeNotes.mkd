@@ -1,7 +1,9 @@
 # Mon Github
-![GitHub Logo](./images/logo.png)
+![GitHub Logo](./Images/LogoGit.png)
 
 [Github](https://github.com/Quentgb/Cahier-de-laboratoir)
+
+<img src="./Images/LIG_coul.jpg" alt="LIG" width="500"/>
 
 # Historiques
 
