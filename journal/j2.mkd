@@ -1,0 +1,9 @@
+# Deuxieme jour au laboratoire
+
+- Lecture de l'article [Improving Testability of Software Systems
+that Include a Learning Feature](../CP_article/CP_Improving_Testability_of_Software_Systems.mkd)
+
+- Finition du MOOC 
+
+[retour page principale](../ListeDeNotes.mkd)
+

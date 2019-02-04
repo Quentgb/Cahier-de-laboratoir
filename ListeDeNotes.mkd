@@ -1,10 +1,13 @@
 # Mon Github
+![GitHub Logo](./images/logo.png)
 
 [Github](https://github.com/Quentgb/Cahier-de-laboratoir)
 
 # Historiques
 
-- [28/01/2019](./journal/j1.mkd)
+- Premier jour de Stage(MOOC et Article) [28/01/2019](./journal/j1.mkd)
+- Deuxieme jour de Stage(MOOC et Article) [29/01/2019](./journal/j2.mkd)
+- Troisieme jour de Stage (Redaction CP et Article) [04/02/2019](./journal/j3.mkd)
 
 
 

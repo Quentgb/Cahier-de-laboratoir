@@ -1,0 +1,9 @@
+# CP : Improving Testability of Software Systems that Include a Learning Feature
+
+
+
+
+
+[retour page J2](../journal/j2.mkd)
+
+[retour page principale](../ListeDeNotes.mkd)
