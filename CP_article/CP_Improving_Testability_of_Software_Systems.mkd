@@ -2,7 +2,7 @@
 
 Le but de cette Article et d'exprimer les propriétés  qui pourront être utile lors de l'évaluation de la qualité d'une application prenant en compte la dimension de l'apprentissage.
 
-I. Introduction
+1. Introduction
 
             Aujourd'hui les Intelligence Artificielle (IA) prenne de plus en plus une part importante dans les systemes informatiques.
             De ce faite chaque App ou systeme promettront de plus en plus une experience personnalisée pour chaque utilisateur, et donc améliorer leur satisfaction.
@@ -10,7 +10,7 @@ I. Introduction
 
             Dans cette article on reporteles lessons apprises dans un cas d'application constituée d'une interface d'apprentissage.
 
-II. Machine learning et Validation
+2. Machine learning et Validation
 
 
 
