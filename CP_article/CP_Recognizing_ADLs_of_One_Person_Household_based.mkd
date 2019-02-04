@@ -1,4 +1,4 @@
-#Recognizing ADLs of One Person Household basedon Non-intrusive Environmental Sensing
+# Recognizing ADLs of One Person Household basedon Non-intrusive Environmental Sensing
 
 * Problematique
 
