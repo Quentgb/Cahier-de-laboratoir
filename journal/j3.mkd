@@ -1,1 +1,6 @@
 # Troisieme jour au laboratoire
+
+-Mise en place et redaction des deux premier compte rendu des articles fournis par ma responsable (CF : j1 et j2).
+
+
+[retour page principale](../ListeDeNotes.mkd)

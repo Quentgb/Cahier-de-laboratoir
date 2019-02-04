@@ -12,6 +12,32 @@ Le but de cette Article et d'exprimer les propriétés  qui pourront être utile
 
 2. Machine learning et Validation
 
+            On considère dans cette section la validation des algorithmes de la machine, du niveau du syteme et du point de vu de la testabilité.
+            
+    1. Validation des algorithmes
+    
+        Il existe differents types de Learning Machine (ML)
+        On attend d'une ML qu'elle fasse de bonnes prédictions, apres un temps d'apprentissage.
+        La premiere partie de la validation et de verifier la qualité de ses prédictions.
+
+            Les mesures de performences sont spécifiques aux types d'algorithmes évalués.
+
+    2. Validation du systeme final
+    
+    3. Un point de vue de testabilité du génie logiciel
+
+
+3. Etude de Cas
+
+    1. L'Application testée
+
+    2. Le harnais de validation
+
+4. Exprimer les propriétés
+
+5. Les leçons apprisent 
+
+6. Conclusions et perspectives
 
 
 [retour page J2](../journal/j2.mkd)
