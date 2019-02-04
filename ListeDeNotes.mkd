@@ -1,10 +1,10 @@
-<h2>#Mon Github
+#Mon Github
 
 [Github](https://github.com/Quentgb/Cahier-de-laboratoir)
 
-<h2>#Historiques
+#Historiques
 
-- [28/01/2019](./premiertest/j1.mkd)
+- [28/01/2019](./journal/j1.mkd)
 
 
 

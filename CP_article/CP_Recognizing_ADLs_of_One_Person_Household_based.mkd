@@ -1,0 +1,51 @@
+#Recognizing ADLs of One Person Household basedon Non-intrusive Environmental Sensing
+
+* Problematique
+
+            Il y a de plus en plus de ménage à une personne sur terre. Selon les personnes qui vivent seules, il est plus facil d'avoir tendance a perdre le controle d'un rythme de vie sains.
+            
+            En général le rytme de vie est charactérisé par les activitées simples *ADLs* (manger, dormir,se laver, etc...).
+            
+            Pour maintenir un bon rythme de vie, la personne doit enregstrer régulierement une liste de ses activitées. Cependant sela demande une grande force de volonté et de la patience.
+            
+            On cherche donc a automatisé ces enregistrement de facon a ce que la personne concerné puisse les consulter sans  devoir penser constamment a les enregistrer et donc eviter une degradation de son rythme de vie.
+
+* Recherches déjà existantes
+
+            Des recherches on deja été mennées dans ce domaine cependant :
+            -Les chercheurs ce sont rendu compte que coupler plusieurs type de senseurs (video, audio, etc...) donnait une meilleure idées des activitées faites par la personne evaluée.
+            -Quand un processus vidéo est utilisée les gens on du mal a accepter le fait qu'ils sont "observé" dans leur "vie privée".
+
+* La SensorBox
+
+            IOT device avec plusieur senseurs environnementaux qui permet de mesurer 7 attributs environnementaux(temp, humidité, luminosité, pression atmosphérique, volume sonnore, mouvement humain et vibration).
+
+
+* Challenge 
+
+            La plupart des recherches menées sur ADLs s'appliquent principalement sur les personnes agées, les personnes atteintes de cancer oules familles ordinnaires, mais tres peu pour les personnes vivants seules.
+            La seule caractéristique : la personne vie seule
+            De plus le systeme ne devra pas etre considéré comme intrusif, Le résident doit etre mis a l'aise en présence du systeme .
+            Le but de cette recheche est de minimiser ces limitations d'approche conventionnelle tout en ayant une bonne qualité d'ADL reconnaissance d'une personne vivant seule.
+
+
+* Etapes :
+
+    - la Collecte de Données
+
+            pour permettre une bonne reconnaissance d'ADL
+
+    - Labeler les Activités
+
+            Pendant les premiers jours afin que le systeme puisse correctement apprendre les ADLs a partir des données recupérées on demande a l'utilisateur d'enregistrer ces activtés.(_LifeLogger_).
+
+
+
+[retour page J1](../journal/j1.mkd)
+
+[retour page principale](../ListeDeNotes.mkd)
+
+
+
+
+
