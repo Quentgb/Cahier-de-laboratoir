@@ -20,10 +20,20 @@ Le but de cette Article et d'exprimer les propriétés  qui pourront être utile
         On attend d'une ML qu'elle fasse de bonnes prédictions, apres un temps d'apprentissage.
         La premiere partie de la validation et de verifier la qualité de ses prédictions.
 
-            Les mesures de performences sont spécifiques aux types d'algorithmes évalués.
+        Les mesures de performences sont spécifiques aux types d'algorithmes évalués.
 
     2. Validation du systeme final
-    
+
+        La validation d'un systeme ayant un systeme d'apprentissage est compliqué.
+
+        L'application de ce genre de systeme n'est pas facile a predire car il varie avec le respect de l'environnement.
+
+        Meme pour un utilisateur spécifique ses besoin peuvent evoluer avec le temps. Ce qui rend la spécification impossible à exprimer precisemment. Pour les meme raison il est tres difficil de determiner les characteristiques de l'environnement du système final.
+
+        Pour pouvoir tester une maison intelligente qui régule la temperature, necessite de pouvoir changer la temperature de celle-ci pour verifier que le systeme reagi correctement. Cependant trop chauffer une piece l'hiver pour voir si le systeme la reffroidit est innaceptable.
+        
+        Pour cette raison le systeme finale est generalement tester dans un envirronement simulé avant de deploiement. Pour la validation le monitoring est préféré. Cela consiste en l'observation des output sans controller les inputs.
+
     3. Un point de vue de testabilité du génie logiciel
 
 

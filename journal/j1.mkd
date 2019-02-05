@@ -1,6 +1,6 @@
 # Premier jour au laboratoire
 
-- Lecture de l'article _**[Recognizing ADLs of One Person Household based on non-intrusive environmental sensing](../CP_article/CP_Recognizing_ADLs_of_One_Person_Household_based.mkd)**_
+- Lecture de l'article _**[Recognizing ADLs of One Person Household based on non-intrusive environmental sensing](../CR_article/CR_Recognizing_ADLs_of_One_Person_Household_based.mkd)**_
 
 - Création de mon cahier de laboratoire sur github
 
