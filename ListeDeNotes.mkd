@@ -11,6 +11,7 @@
 - Deuxieme jour de Stage(MOOC et Article) [29/01/2019](./journal/j2.mkd)
 - Troisieme jour de Stage (Redaction CP et Article) [04/02/2019](./journal/j3.mkd)
 - Jour 4 a 6 (Article et Partrap) [(05,11,12)/02/2019](./journal/j4-6.mkd)
+- Jour 7 (Realisation d'une trace Partrap) [18/02/2019](./journal/j7_ChatTest.mkd)
 
 
 
