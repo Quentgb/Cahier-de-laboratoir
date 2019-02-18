@@ -1,0 +1,14 @@
+pour lancer le server :
+
+	1. il faut que vous entriez la commande suivante:
+
+	export CLASSPATH=$(<"classpath.txt"):$CLASSPATH
+
+	2.compilez avec ./compil.sh
+
+	3. lancez la commande "rmiregistry &"
+
+	4. lancer le Server : ./StartServer.sh
+
+	5. dans d'autre terminaux lancer les Clients : ./StartClient.sh
+

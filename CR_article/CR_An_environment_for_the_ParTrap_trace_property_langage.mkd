@@ -1,0 +1,62 @@
+# CR An environment for the ParTraP trace property language
+
+
+### ParTrap
+
+            Dans les systemes critiques, comme par exemple les systemes medicaux,il est généralement facil d'améliorer le code avec une traçabilité des informations.
+            
+            ParTraP est un langage expressif qui permet d'exprimer des propriétés sur des traces d'événements paramétriques.
+
+            Il est conçu pour aider les ingénieurs en logiciel à comprendre et à écrire les propriétés sans avoir recours à des méthodes formelles.
+
+            On presentera le langage et les outils de celui-ci : compiler, syntax directe d'edition, et un prototype générateur d'exemple et contre-exemple.
+
+
+1. Introduction
+
+            Beaucoup d'applications, comme les moniteur de soins intensifs, demande un software de haute qualité. Mais leur criticité ne nécessite pas l'utilisation de preuves formelles.
+
+            Par consequent la communauté, a promu une approche légères aux methodes formelles.
+
+            Le langage ParTrap est conçu pour aller dans cette direction. Ce langage et conçu pour aider les ingenieurs informatique non entrainé dnas le domaine des methodes formelles.
+
+2. Le Langage PartTrap
+
+            Ce langage a été conçu en cooperation avec "Blue Ortho" une entreprise d'outils medicaux et "MinMaxMedical" une compagnie de logiciels medicaux.
+            
+            Ensemble ils ont imaginé un system permettant d'effectuer une chirurgie d'Arthroplasty.
+            Des traces de plus de 10 000 chirurgies on été prélevées avec environ 500 significatifs événements differents.
+
+            15 propriétés on été identifiées, représentant ce genre de dispositifs medical pour assister une chirurgie.
+
+    1. Structure des propriétés de ParTrap
+
+           Une propriété temporelle de ParTraP est décrite par sa portée dans la trace, et par un modèle temporel sur les événements satisfaisant un prédicat.
+            
+           Par exemple : "_une fois la Camera connectée , la temperature du dispositf ne descend pas en dessous de 45°C_
+
+           On peut voir sur l'exemple donnée sur la Fig 1 que la propriété "< 45°C" est violée et cela nous renvoie le message d'erreure suivant :
+
+            *WARNING False on trace unit-tests_Trace*
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

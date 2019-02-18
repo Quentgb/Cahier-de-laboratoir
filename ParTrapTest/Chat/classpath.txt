@@ -1,0 +1,4 @@
+./lib/Info_itf.jar:./lib/Info_itfImpl.jar:./lib/Chat.jar:./lib/ChatImpl.jar:./lib/Broadcast_itf.jar:./lib/Broadcast_itfImpl.jar:./lib/PrivateChatImpl.jar:./lib/Factory_Itf.jar:./lib/ChatFactory.jar:./lib/Accounts_Itf.jar:./lib/Accounts_ItfImpl.jar
+
+
+

@@ -1,0 +1,7 @@
+# Jour 7 : Creation d'un trace Partrap
+
+## Application testée :
+Au cour de notre formation il nous a été demander de créer un Serveur de Chats dont le compte-rendu est le suivant : [CP_Chat](../ParTrapTest/Chat/Prokhorova_A_GuerreB_Q_ChatServeur.pdf)
+
+
+[retour page principale](../ListeDeNotes.mkd)

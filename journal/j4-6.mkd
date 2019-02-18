@@ -1,0 +1,7 @@
+# Quatrieme au sixieme jour au laboratoire
+
+* Lecture de l'article nous introduisant la presentation et l'utilisation de Partrap un langage developpé dans le but de permettre a des personne ayant une faible connaissance des methodes formelles de test, de tester leur logiciel.
+* Installation d'eclipse et de l'application Partrap affin de pouvoir l'utiliser.
+* Test simple et déja implémenté de trace affin de mieux comprendre Partrap.
+
+[retour page principale](../ListeDeNotes.mkd)
