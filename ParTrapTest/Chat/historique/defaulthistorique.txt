@@ -1,0 +1,9 @@
+
+a : coucou
+    ca va?
+    il y a quelqu'un?
+q : salut la compagnie!
+    ca av?
+a : oui oui et toi?
+q : ba ecoute la forme je dois alle mager !!
+a : ok salut!

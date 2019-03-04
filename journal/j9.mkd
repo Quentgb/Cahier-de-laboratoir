@@ -1,0 +1,32 @@
+# Jour 9 : Creation d'un trace Partrap(Suite) et teste de celle-ci
+
+## Application testée :
+Au cour de notre formation il nous a été demander de créer un Serveur de Chats dont le compte-rendu est le suivant : [CP_Chat](../ParTrapTest/Chat/Prokhorova_A_GuerreB_Q_ChatServeur.pdf)
+
+
+### Tests :
+
+    J'ai decider de tester les caracteristiques suivantes :
+    apres qu'un utilisateur ai envoyé un message ce message doit etre recu mot pour mot par tous les utilisateurs connecté au Chat .
+
+### La trace :
+
+    La trace est composé de : 
+* id => BroadcastS (Sender)
+    * temps -> moment ou le message a été envoyé
+    * idMess -> id du message
+    * client -> client qui a envoyé le message
+    * message -> message envoyé
+    * listUsers -> list de utilisateur connecté au Chat
+* id => BroadCastR (Receiver)
+    * temps -> moment ou le message a été reçu
+    * idMess -> id du message recu
+    * client -> client ayant envoyé le message
+    * receiver -> client ayant recu le message
+    * message -> message recu
+    * lisUsers -> list de utilisateur connecté au Chat
+    
+
+Suite->[jour 10](./j10.mkd)
+
+[retour page principale](../ListeDeNotes.mkd)

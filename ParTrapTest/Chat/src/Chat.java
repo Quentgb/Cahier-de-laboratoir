@@ -7,7 +7,7 @@ public interface Chat extends Remote {
 	public String sayHello(String client, Broadcast_itf clientAcc) throws RemoteException;
 
 	//envoie le message d'un client a tout le monde
-	public void talk(String client, String s) throws RemoteException,IOException;
+	public void talk(String client, String s, Integer idMess) throws RemoteException,IOException;
 
 	//supprime le nom du client de la Hashtable
 	public String sayGoodBye(String client) throws RemoteException;	
@@ -26,5 +26,7 @@ public interface Chat extends Remote {
 	public String getMdp() throws RemoteException;
 
 	public String getName() throws RemoteException;
+
+	public Integer getIdMess() throws RemoteException;
 
 }

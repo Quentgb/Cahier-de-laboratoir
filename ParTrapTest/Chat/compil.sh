@@ -2,6 +2,11 @@
 rm lib/*
 rm classes/*
 
+javac -d classes -classpath .:classes src/EcrireFile.java 
+cd classes 
+jar cvf ../lib/EcrireFile.jar EcrireFile.class
+cd .. 
+
 javac -d classes -classpath .:classes src/Broadcast_itf.java 
 cd classes 
 jar cvf ../lib/Broadcast_itf.jar Broadcast_itf.class
@@ -58,7 +63,7 @@ jar cvf ../lib/Accounts_ItfImpl.jar Accounts_ItfImpl.class
 cd .. 
 
 
-javac -d classes -cp .:classes:lib/Chat.jar:lib/ChatImpl.jar:lib/Accounts_Itf.jar:lib/Accounts_ItfImpl.jar: src/HelloServer.java
-javac -d classes -cp .:classes:lib/Chat.jar:lib/Info_itf.jar:lib/Info_itfImpl.jar:lib/Broadcast_itf.jar:lib/Broadcast_itfImpl.jar:lib/Accounts_Itf.jar src/HelloClient.java
+javac -d classes -cp .:classes:lib/Chat.jar:lib/ChatImpl.jar:lib/Accounts_Itf.jar:lib/Accounts_ItfImpl.jar:lib/EcrireFile.jar src/HelloServer.java
+javac -d classes -cp .:classes:lib/Chat.jar:lib/Info_itf.jar:lib/Info_itfImpl.jar:lib/Broadcast_itf.jar:lib/Broadcast_itfImpl.jar:lib/Accounts_Itf.jar:lib/EcrireFile.jar src/HelloClient.java
 
 echo Compil finit!

@@ -3,5 +3,17 @@
 ## Application testée :
 Au cour de notre formation il nous a été demander de créer un Serveur de Chats dont le compte-rendu est le suivant : [CP_Chat](../ParTrapTest/Chat/Prokhorova_A_GuerreB_Q_ChatServeur.pdf)
 
+### Les traces : 
+
+On veut tester plusieurs choses suite au possibilités que ce Serveur nous offre :
+
+* Savoir si le message envoyé par l'un des clients et bien reçu par tous les autres.
+* Savoir si un message reçu a bien été envoyé par quelqu'un.
+
+
+#### Resultats
+Pas de resultats aujourd'hui la prise en main du langage Partrap a été plus compliqué que prévu.
+
+Suite->[jour 8](./j8.mkd)
 
 [retour page principale](../ListeDeNotes.mkd)

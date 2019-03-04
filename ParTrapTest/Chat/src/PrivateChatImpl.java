@@ -15,6 +15,7 @@ public class PrivateChatImpl implements Chat {
  	private Boolean priv; 
  	private String mdp;
  	private String moderateur;
+ 	private Integer idMess;
 
 	public PrivateChatImpl(String nameRoom, String mdp, String moder) throws IOException{
 		clients=new Hashtable<>();
@@ -24,6 +25,12 @@ public class PrivateChatImpl implements Chat {
 		priv=true;
 		this.mdp=mdp;
 		moderateur=moder;
+		idMess=0;
+	}
+
+	synchronized public Integer getIdMess() throws RemoteException{
+		idMess++;
+		return idMess;
 	}
 
 	public Boolean getPriv() throws RemoteException{
@@ -99,7 +106,7 @@ public class PrivateChatImpl implements Chat {
 	}
 
 	//envoie le message d'un client a tout le monde 
-	public synchronized void talk(String client, String s) throws RemoteException,IOException {
+	public synchronized void talk(String client, String s, Integer idMess) throws RemoteException,IOException {
 		PrintWriter p = new PrintWriter(new FileWriter("historique/"+this.nameRoom+"historique.txt",true));
 		String tailleNom="";
 		Boolean newC ;

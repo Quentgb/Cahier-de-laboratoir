@@ -2,8 +2,7 @@
 import java.rmi.*; 
 import java.rmi.server.*; 
 import java.rmi.registry.*;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.ArrayList;
 
 
@@ -147,7 +146,7 @@ public class HelloClient {
 	                }
 	                if(ok){
 
-	                    Broadcast_itfImpl acc = new Broadcast_itfImpl();
+	                    Broadcast_itfImpl acc = new Broadcast_itfImpl(nom);
 	                    Broadcast_itf acc_stub = (Broadcast_itf) UnicastRemoteObject.exportObject(acc, 0);
 	            
 	                    System.out.println(h2.sayHello(nom,acc_stub));
@@ -194,7 +193,7 @@ public class HelloClient {
 
 	              	}
 	          
-	                Broadcast_itfImpl acc = new Broadcast_itfImpl();
+	                Broadcast_itfImpl acc = new Broadcast_itfImpl(modo);
 	                Broadcast_itf acc_stub = (Broadcast_itf) UnicastRemoteObject.exportObject(acc, 0);
 	          
 	                System.out.println(h2.sayHello(nom,acc_stub));
@@ -222,6 +221,8 @@ public class HelloClient {
     BufferedReader stdIn =
           new BufferedReader(
               new InputStreamReader(System.in));
+
+    Integer idMess=null;
 
     //Chat de client
     
@@ -271,8 +272,19 @@ public class HelloClient {
 	        //Cas message vide
 	        else if((command.replace(" ","")).equals("")){}
 	        //envoie d'un message classique 
-	        else
-	           	h2.talk(i,command);
+	        else{
+	        	ArrayList<String> list = h2.listUsers();
+				String listu = "[";
+				for(int j =0; j<list.size(); j++){
+					listu = listu+"\""+list.get(j)+"\"";
+					if(j<list.size()-1)
+						listu= listu+", ";
+				}
+				listu = listu+"]";
+				idMess=h2.getIdMess();
+	        	EcrireFile.ecrireDans("{\"id\" :\"BroadcastS\",\"temps\" : "+System.nanoTime()+",\"idMess\" : "+idMess+", \"client\" : \""+i+"\", \"message\" : \""+command+"\", \"listUsers\" : "+listu+"},","traces/messagetrace.json",true);
+				h2.talk(i,command, idMess);
+	        }
       	}
     }catch(Exception e){
       	System.err.println("Error on reading: " + e);

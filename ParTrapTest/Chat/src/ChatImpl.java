@@ -14,6 +14,7 @@ public class ChatImpl implements Chat {
  	private String nameRoom;
  	private String moderateur;
  	private Boolean priv;
+ 	private Integer idMess;
 
 	public ChatImpl(String nameRoom, String moder) throws IOException{
 		clients=new Hashtable<>();
@@ -22,6 +23,12 @@ public class ChatImpl implements Chat {
 		this.nameRoom=nameRoom;
 		priv=false;
 		moderateur=moder;
+		idMess=0;
+	}
+
+	synchronized public Integer getIdMess() throws RemoteException{
+		idMess++;
+		return idMess;
 	}
 
 	public Boolean getPriv(){
@@ -93,7 +100,7 @@ public class ChatImpl implements Chat {
 	}
 
 	//envoie le message d'un client a tout le monde 
-	public synchronized void talk(String client, String s) throws RemoteException,IOException {
+	public synchronized void talk(String client, String s, Integer idMess) throws RemoteException,IOException {
 		PrintWriter p = new PrintWriter(new FileWriter("historique/"+nameRoom+"historique.txt",true));
 		String tailleNom="";
 		Boolean newC ;
@@ -121,13 +128,26 @@ public class ChatImpl implements Chat {
 		}
 		Set<String> keys = clients.keySet();
 		Iterator<String> itr = keys.iterator();
-      
+      	
+		ArrayList<String> list = this.listUsers();
+		String listu = "[";
+		for(int j =0; j<list.size(); j++){
+			listu = listu+"\""+list.get(j)+"\"";
+			if(j<list.size()-1)
+				listu= listu+", ";
+		}
+		listu = listu+"]";
+
 		while(itr.hasNext()) {
         	String element = itr.next();
         	if(lastTalker.equals(client) && !newC){
+				EcrireFile.ecrireDans("{\"id\" :\"BroadcastR\",\"temps\" : "+System.nanoTime()+",\"idMess\" : "+idMess+" ,\"client\" : \""+lastTalker+"\" ,\"receiver\" : \""+element+ "\", \"message\" : \""+s+"\", \"listUsers\" : "+listu+"},","traces/messagetrace.json",true);	
         		(clients.get(element)).receiveMessage(tailleNom + s);
         	}
         	else{
+        		
+				EcrireFile.ecrireDans("{\"id\" :\"BroadcastR\",\"temps\" : "+System.nanoTime()+",\"idMess\" : "+idMess+" ,\"client\" : \""+client+"\" ,\"receiver\" : \""+element+"\", \"message\" : \""+s+"\", \"listUsers\" : "+listu+"},","traces/messagetrace.json",true);	
+        		
         		(clients.get(element)).receiveMessage(client + " : " + s);
         		lastTalker = client;
         	}

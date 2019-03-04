@@ -1,0 +1,18 @@
+# Jour 8 : Creation d'un trace Partrap(Suite)
+
+## Application testée :
+Au cour de notre formation il nous a été demander de créer un Serveur de Chats dont le compte-rendu est le suivant : [CP_Chat](../ParTrapTest/Chat/Prokhorova_A_GuerreB_Q_ChatServeur.pdf)
+
+### Les traces : 
+
+* Savoir si le message envoyé par l'un des clients et bien reçu par tous les autres.
+
+    - Idée: On prend 2 id : un broadcast**S** pour **Send**  et un Broadcast**R** pour **Received**.
+
+        Chaques traces aura un type **client** celui qui envoie ou reçoit selon le broadcast, un **message** reçu ou envoyé, un **IdMess** car il peut y avoir plusieurs message envoyé plusieurs fois il nous faut donc les dissocier, et une list d'utilisateurs connecté au Chat pour les BroadcastS.
+
+        Le but est de verifier que pour chaque BroadcastS on a un BroadcastR pour chaque personne connectée au Chat avec le meme message que celui envoyer et le meme IdMess.
+        
+Suite->[jour 9](./j9.mkd)
+
+[retour page principale](../ListeDeNotes.mkd)

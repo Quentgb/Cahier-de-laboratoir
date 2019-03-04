@@ -4,4 +4,7 @@
 * Installation d'eclipse et de l'application Partrap affin de pouvoir l'utiliser.
 * Test simple et déja implémenté de trace affin de mieux comprendre Partrap.
 
+[Jours suivants ->](./j7_ChatTest.mkd)
+
+
 [retour page principale](../ListeDeNotes.mkd)
