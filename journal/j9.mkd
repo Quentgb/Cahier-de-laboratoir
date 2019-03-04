@@ -34,7 +34,7 @@ tel que pour tout **u** dans **S**.listUsers il existe :  **u**==**R**.receiver 
 
 ### Partrap
 
-<img src="../Images/partrap.png" alt="LIG" width="500"/>
+<img src="../Images/partrap.png" alt="LIG" width="4000"/>
 
 Suite->[jour 10](./j10.mkd)
 
