@@ -11,7 +11,8 @@ Au cour de notre formation il nous a été demander de créer un Serveur de Chat
 
 ### La trace :
 
-    La trace est composé de : 
+La trace est composé de : 
+
 * id => BroadcastS (Sender)
     * temps -> moment ou le message a été envoyé
     * idMess -> id du message
@@ -25,7 +26,15 @@ Au cour de notre formation il nous a été demander de créer un Serveur de Chat
     * receiver -> client ayant recu le message
     * message -> message recu
     * lisUsers -> list de utilisateur connecté au Chat
-    
+
+
+On cherche donc a verifier qu'apres chaque id **_BroadcastS_** **S** on a un **_BroadcastR_** **R**
+
+tel que pour tout **u** dans **S**.listUsers il existe :  **u**==**R**.receiver && **S**.message==**R**.message && **R**.idMess==**S**.idMess
+
+### Partrap
+
+<img src="../Images/partrap.png" alt="LIG" width="500"/>
 
 Suite->[jour 10](./j10.mkd)
 
