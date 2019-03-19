@@ -8,7 +8,7 @@ Le but de cette Article et d'exprimer les propriétés  qui pourront être utile
             De ce faite chaque App ou systeme promettront de plus en plus une experience personnalisée pour chaque utilisateur, et donc améliorer leur satisfaction.
             Cependant des problemes de securités sont encore regulierement reportés.
 
-            Dans cette article on reporteles lessons apprises dans un cas d'application constituée d'une interface d'apprentissage.
+            Dans cette article on reporte les leçons apprises dans un cas d'application constituée d'une interface d'apprentissage.
 
 2. Machine learning et Validation
 
