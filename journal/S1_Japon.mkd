@@ -1,0 +1,13 @@
+# Premiere Semaine
+
+Nakamura-sensei nous a présenté la structure du code de la "SensorBox".
+
+## Travail à faire :
+
+L'idée est de reprendre la structure et le principe du code de la SensorBox et de l'appliquer a un "use case" a nous, c'est à dire par exemple : detecté si une personne n'a pas oublié de prendre ses lunettes, sont parapluie, etc... avant de sortir de chez elle selon le temps. 
+Le principe de __Machine Learning__ devra être respecté affin de pouvoir peut être l'ajouter à la SensorBox.
+
+J'ai trouvé une data base sur les cancers du seins et les resultats des analyses de plusieurs cellules prelevées sur le sujet, ainsi que le type de cancer du patient.
+L'idée a donc été, grâce à un systeme de Machine learning,de pouvoir trouver un schémat permettant de determiner grace a des analyses des cellules, savoir si le cancer est benin ou malin.
+
+Le devellopement de Machine Learning s'est fait sur 
