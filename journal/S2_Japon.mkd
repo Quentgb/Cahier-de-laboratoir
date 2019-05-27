@@ -1,0 +1,9 @@
+#Deuxieme semaine
+
+Suite à l'application développé il nous est demandé de penser au faille possible qui peuvent apparaitre, et de réfléchir à comment y remédier ou les eviter.
+
+
+
+[semaine suivants ->](./S3_Japon.mkd)
+
+[retour page principale](../ListeDeNotes.mkd)

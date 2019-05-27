@@ -2,6 +2,8 @@
 
 Nakamura-sensei nous a présenté la structure du code de la "SensorBox".
 
+[Repository Git](https://github.com/muretti0114/UGA2019)
+
 ## Travail à faire :
 
 L'idée est de reprendre la structure et le principe du code de la SensorBox et de l'appliquer a un "use case" a nous, c'est à dire par exemple : detecté si une personne n'a pas oublié de prendre ses lunettes, sont parapluie, etc... avant de sortir de chez elle selon le temps. 
@@ -10,4 +12,20 @@ Le principe de __Machine Learning__ devra être respecté affin de pouvoir peut 
 J'ai trouvé une data base sur les cancers du seins et les resultats des analyses de plusieurs cellules prelevées sur le sujet, ainsi que le type de cancer du patient.
 L'idée a donc été, grâce à un systeme de Machine learning,de pouvoir trouver un schémat permettant de determiner grace a des analyses des cellules, savoir si le cancer est benin ou malin.
 
-Le devellopement de Machine Learning s'est fait sur 
+Le devellopement de Machine Learning s'est fait sur [Azure](https://studio.azureml.net/Home/ViewWorkspaceCached/b0469c7e953f4bc992e2134488dec084?#Workspaces/Experiments/Experiment/b0469c7e953f4bc992e2134488dec084.f-id.1780ddde8ff842e8924da7b2f4753455/ViewExperiment ) .
+Une fois le schema définit il m'a suffit de deployer le service.
+
+Une fois le service déployé il nous a suffit de dévelloper une application python qui se connecte à ce service affin d'envoyer les données cellulaires prélevées et demander une prédiction (benin ou malin).
+
+## Pourquoi/qui
+L'idée principale de cette appli et d'ensuite pouvoir la dévelloper dans l'optique d'aider et rassurer les femme ayant un kyste au sein. En effait bien que bénin un kiste à des chances de se dévelloper et de se transformer en Cancer bien que ce ne soit pas courant.
+
+Il y a donc souvent des femme qui par peur de dévellopement se le font enlever. Avec ce dispositif il serait possible de tester rapidement si un kyste est benin ou malin en évitant de passer par une biosy.
+
+
+[semaine suivants ->](./S2_Japon.mkd)
+
+[retour page principale](../ListeDeNotes.mkd)
+
+
+
