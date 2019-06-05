@@ -23,6 +23,10 @@
 
 - Premiere semaine(20-24/05/2019) (Familiarisation avec le Japon et début du travail) [Semaine 1](./journal/S1_Japon.mkd)
 
+- Deuxieme semaine(27-31/05/2019) (Dvp d'un app utilisant un systeme de machine learning et gestion de ses risques) [Semaine 2](./journal/S2_Japon.mkd)
+
+- Troisieme semaine(03-07/06/2019) (Familiarisation avec le Japon et début du travail) [Semaine 3](./journal/S3_Japon.mkd)
+
 
 
 

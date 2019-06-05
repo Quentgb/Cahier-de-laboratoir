@@ -1,0 +1,9 @@
+#Troisième semaine
+
+Présentation des risques possible sur notre application avec le professeur 
+[Francois Portet](http://lig-membres.imag.fr/portet/home.php).
+
+[Compte rendu de la présentation](https://github.com/muretti0114/UGA2019/blob/master/docs/20190604_discussion.md)
+## Next Step
+
+Il faut maintenant chercher a généraliser les problemes trouvé au systeme mis en place et essayer de trouver des réponses à ceux-ci.
